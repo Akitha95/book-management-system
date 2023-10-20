@@ -19,10 +19,7 @@ const CreateBook = () => {
       // .post("http://localhost:5555/books", data)
 
       // for deploy
-      .post(
-        "https://book-management-system-api-56zt.onrender.com/books",
-        data
-      )
+      .post("https://book-management-system-api-56zt.onrender.com/books", data)
       .then(() => {
         navigate("/");
         window.location.reload(true);
