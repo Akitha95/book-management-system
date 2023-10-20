@@ -20,7 +20,7 @@ const CreateBook = () => {
 
       // for deploy
       .post(
-        "https://akitha95.github.io/book-management-system-backend/books",
+        "https://book-management-system-api-56zt.onrender.com/books",
         data
       )
       .then(() => {

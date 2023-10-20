@@ -13,7 +13,7 @@ const BookList = () => {
       // .get("http://localhost:5555/books")
 
       // for deploy
-      .get("https://akitha95.github.io/book-management-system-backend/books")
+      .get("https://book-management-system-api-56zt.onrender.com/books")
       .then((response) => {
         setBooks(response.data.data);
       })

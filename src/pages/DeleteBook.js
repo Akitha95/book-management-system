@@ -12,7 +12,7 @@ const DeleteBook = () => {
       // .delete(`http://localhost:5555/books/${id}`)
       // for deploy
       .delete(
-        `https://akitha95.github.io/book-management-system-backend/books/${id}`
+        `https://book-management-system-api-56zt.onrender.com/books/${id}`
       )
       .then(() => {
         navigate("/");
