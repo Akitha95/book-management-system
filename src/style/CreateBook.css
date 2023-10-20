@@ -1,0 +1,50 @@
+:root {
+  --button-color: #008caf;
+  --button-hover-color: #60b7fd;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: 25px auto;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form button {
+  width: 100%;
+  background-color: var(--button-color);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: var(--button-hover-color);
+}
+
+@media screen and (max-width: 700px) {
+  .form {
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto;
+  }
+}
